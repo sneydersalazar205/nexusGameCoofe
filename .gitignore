@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.vscode/
+*.log
+blackbox/.venv/
+blackbox/reporte.html
+blackbox/evidencias/paso_*.png
+__pycache__/
+*.pyc

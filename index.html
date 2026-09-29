@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NEXUS Café Gamer & Stay: estaciones gamer, café, torneos y estadías para jugar, descansar y compartir en un solo lugar." />
+  <meta name="theme-color" content="#090714" />
+  <title>NEXUS Café Gamer & Stay</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="src/nexus-core.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="NEXUS Café Gamer & Stay - Inicio">
+        <span class="brand-mark" aria-hidden="true">NX</span>
+        <span class="brand-copy">
+          <strong>NEXUS</strong>
+          <small>Café Gamer & Stay</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">☰</button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#estaciones">Estaciones</a></li>
+          <li><a href="#estadias">Estadías</a></li>
+          <li><a href="#calculadora">Calculadora</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="nav-cta" href="#reservar">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">🎮 Juega · ☕ Recarga · 🛏️ Descansa</span>
+          <h1>Tu próxima partida no termina cuando cierra el café.</h1>
+          <p>
+            Vive una experiencia gamer completa con PCs de alto rendimiento, consolas, bebidas,
+            comida rápida, torneos y habitaciones de descanso para sesiones largas, viajes o eventos.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reservar">Reservar mi experiencia</a>
+            <a class="btn btn-secondary" href="#estadias">Ver planes de estadía</a>
+          </div>
+
+          <div class="hero-proof" aria-label="Beneficios principales">
+            <span>⚡ Internet fibra 1 Gbps</span>
+            <span>🖥️ PCs 144–240 Hz</span>
+            <span>🌙 Servicio nocturno</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Disponibilidad en NEXUS">
+          <div class="hero-panel-top">
+            <div>
+              <span class="panel-kicker">Disponibilidad ahora · DEMO</span>
+              <strong>Zona Gamer Principal</strong>
+            </div>
+            <span class="status">Abierto</span>
+          </div>
+
+          <div class="metric-grid">
+            <div class="metric">
+              <strong id="freePcCount">18</strong>
+              <span>PCs disponibles</span>
+            </div>
+            <div class="metric">
+              <strong>6</strong>
+              <span>Consolas listas</span>
+            </div>
+            <div class="metric">
+              <strong>4</strong>
+              <span>Habitaciones libres</span>
+            </div>
+            <div class="metric">
+              <strong>24/7</strong>
+              <span>Viernes y sábado</span>
+            </div>
+          </div>
+
+          <div class="live-strip">
+            <span class="live-dot"></span>
+            <span>Próximo torneo: Valorant · Viernes 8:00 p. m.</span>
+          </div>
+          <p class="demo-note">Datos simulados para fines académicos. No representan disponibilidad real en tiempo real.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">01 · La experiencia</span>
+            <h2>Más que un café internet.</h2>
+          </div>
+          <p>
+            NEXUS combina entretenimiento, gastronomía y descanso. Puedes venir por una hora,
+            pasar toda la noche con tu equipo o reservar una estadía completa con acceso gamer.
+          </p>
+        </div>
+
+        <div class="cards feature-grid">
+          <article class="card reveal">
+            <span class="card-icon">🖥️</span>
+            <h3>PC Gaming Pro</h3>
+            <p>Equipos con GPU dedicada, monitores de alta frecuencia, periféricos mecánicos y audio envolvente.</p>
+            <ul class="mini-list">
+              <li>RTX / Radeon gaming</li>
+              <li>144–240 Hz</li>
+              <li>Periféricos premium</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon">🎮</span>
+            <h3>Consolas & Squad Rooms</h3>
+            <p>Salas privadas con consola, pantalla grande y espacio para jugar cooperativo con amigos.</p>
+            <ul class="mini-list">
+              <li>PS5 / Xbox Series</li>
+              <li>Sofás y pantallas 4K</li>
+              <li>Hasta 6 personas</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon">☕</span>
+            <h3>Café & Snacks</h3>
+            <p>Bebidas calientes, energéticas, hamburguesas, sándwiches y snacks para recargar sin abandonar la partida.</p>
+            <ul class="mini-list">
+              <li>Café ilimitado en planes</li>
+              <li>Combos gamer</li>
+              <li>Servicio a la estación</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon">🛏️</span>
+            <h3>Stay Rooms</h3>
+            <p>Habitaciones compactas y cómodas para descansar entre sesiones o pasar la noche cerca de tu setup.</p>
+            <ul class="mini-list">
+              <li>Cama individual o doble</li>
+              <li>Locker seguro</li>
+              <li>Ducha y Wi-Fi</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="estaciones">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">02 · Zonas de juego</span>
+            <h2>Escoge tu setup.</h2>
+          </div>
+          <p>
+            Desde partidas casuales hasta sesiones competitivas. Cada zona está pensada para un tipo de jugador.
+          </p>
+        </div>
+
+        <div class="station-grid">
+          <article class="station-card reveal">
+            <div class="station-top">
+              <span class="station-badge">Casual</span>
+              <span class="price-mini">$7.000 / hora</span>
+            </div>
+            <h3>NEXUS Core</h3>
+            <p>Ideal para League of Legends, Minecraft, Fortnite, Roblox, indies y navegación.</p>
+            <div class="specs">
+              <span>🖥️ 144 Hz</span>
+              <span>🎧 Headset</span>
+              <span>🌐 1 Gbps</span>
+            </div>
+          </article>
+
+          <article class="station-card station-featured reveal">
+            <div class="station-top">
+              <span class="station-badge">Competitivo</span>
+              <span class="price-mini">$10.000 / hora</span>
+            </div>
+            <h3>NEXUS Elite</h3>
+            <p>Para Valorant, CS2, Apex, Warzone y esports donde cada milisegundo importa.</p>
+            <div class="specs">
+              <span>⚡ 240 Hz</span>
+              <span>⌨️ Mecánico</span>
+              <span>🖱️ 1000 Hz</span>
+            </div>
+          </article>
+
+          <article class="station-card reveal">
+            <div class="station-top">
+              <span class="station-badge">Squad</span>
+              <span class="price-mini">$35.000 / hora</span>
+            </div>
+            <h3>Private Squad</h3>
+            <p>Sala privada con consola o PC, pantalla grande y ambiente independiente para tu equipo.</p>
+            <div class="specs">
+              <span>👥 4–6 personas</span>
+              <span>📺 4K</span>
+              <span>🔊 Audio premium</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="estadias">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">03 · Gamer Stay</span>
+            <h2>Juega hasta tarde. Descansa sin salir.</h2>
+          </div>
+          <p>
+            Los planes mezclan horas gamer, alimentación y hospedaje. Los precios son demostrativos y pueden adaptarse al proyecto real.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal" data-plan="Checkpoint" data-base="45000">
+            <span class="pricing-label">4 horas</span>
+            <h3>Checkpoint</h3>
+            <div class="pricing-value"><strong>$45.000</strong><span>/ persona</span></div>
+            <p>Una tarde gamer con comida y estación reservada.</p>
+            <ul>
+              <li>4 horas NEXUS Core</li>
+              <li>1 bebida + snack</li>
+              <li>Locker durante la visita</li>
+              <li>10% en horas adicionales</li>
+            </ul>
+            <button class="btn btn-secondary plan-select" type="button">Elegir Checkpoint</button>
+          </article>
+
+          <article class="pricing-card pricing-popular reveal" data-plan="Night Raid" data-base="98000">
+            <span class="popular-tag">Más elegido</span>
+            <span class="pricing-label">12 horas</span>
+            <h3>Night Raid</h3>
+            <div class="pricing-value"><strong>$98.000</strong><span>/ persona</span></div>
+            <p>Una noche completa para jugar, comer y descansar.</p>
+            <ul>
+              <li>8 horas NEXUS Elite</li>
+              <li>Stay Room por 4 horas</li>
+              <li>Combo gamer + café</li>
+              <li>Ducha, locker y Wi-Fi</li>
+            </ul>
+            <button class="btn btn-primary plan-select" type="button">Elegir Night Raid</button>
+          </article>
+
+          <article class="pricing-card reveal" data-plan="Full Respawn" data-base="165000">
+            <span class="pricing-label">24 horas</span>
+            <h3>Full Respawn</h3>
+            <div class="pricing-value"><strong>$165.000</strong><span>/ persona</span></div>
+            <p>Experiencia completa para viajeros, eventos o maratones.</p>
+            <ul>
+              <li>12 horas gaming combinables</li>
+              <li>Habitación por una noche</li>
+              <li>Desayuno + cena gamer</li>
+              <li>Prioridad en reservas</li>
+            </ul>
+            <button class="btn btn-secondary plan-select" type="button">Elegir Full Respawn</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="calculadora">
+      <div class="container calculator-grid">
+        <div class="calculator-copy reveal">
+          <span class="eyebrow eyebrow-dark">Calculadora rápida</span>
+          <h2>Arma tu partida.</h2>
+          <p>Calcula un estimado según plan y número de personas antes de reservar.</p>
+        </div>
+
+        <div class="calculator-card reveal">
+          <div class="field">
+            <label for="calcPlan">Plan</label>
+            <select id="calcPlan">
+              <option value="45000">Checkpoint — $45.000</option>
+              <option value="98000" selected>Night Raid — $98.000</option>
+              <option value="165000">Full Respawn — $165.000</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="calcPeople">Jugadores</label>
+            <input id="calcPeople" type="number" min="1" max="12" value="2" />
+          </div>
+          <div class="calc-total">
+            <span>Total estimado</span>
+            <strong id="calcTotal">$196.000</strong>
+          </div>
+          <small>Valor de demostración. No procesa pagos ni representa una cotización contractual.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">04 · Ambiente NEXUS</span>
+            <h2>Tu base de operaciones.</h2>
+          </div>
+          <p>Una propuesta visual inspirada en setups modernos, espacios sociales y zonas de descanso.</p>
+        </div>
+
+        <div class="carousel-container reveal" aria-label="Galería NEXUS">
+          <div class="carousel-track" id="carouselTrack">
+            <figure class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=85" alt="Zona de computadores gamer con iluminación ambiental" />
+              <figcaption>Zona competitiva · PCs de alto rendimiento</figcaption>
+            </figure>
+            <figure class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=85" alt="Persona jugando videojuegos frente a monitor" />
+              <figcaption>Sesiones individuales y entrenamiento</figcaption>
+            </figure>
+            <figure class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=85" alt="Habitación moderna preparada para una estadía" />
+              <figcaption>Stay Rooms · descanso entre partidas</figcaption>
+            </figure>
+            <figure class="carousel-slide">
+              <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1600&q=85" alt="Café moderno con ambiente cálido" />
+              <figcaption>Café & snacks · recarga tu energía</figcaption>
+            </figure>
+          </div>
+
+          <button class="carousel-btn prev-btn" id="prevBtn" aria-label="Imagen anterior">❮</button>
+          <button class="carousel-btn next-btn" id="nextBtn" aria-label="Siguiente imagen">❯</button>
+
+          <div class="carousel-indicators" aria-label="Seleccionar imagen">
+            <button class="indicator active" data-index="0" aria-label="Diapositiva 1"></button>
+            <button class="indicator" data-index="1" aria-label="Diapositiva 2"></button>
+            <button class="indicator" data-index="2" aria-label="Diapositiva 3"></button>
+            <button class="indicator" data-index="3" aria-label="Diapositiva 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="faq">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">05 · Preguntas frecuentes</span>
+            <h2>Antes de hacer respawn.</h2>
+          </div>
+          <p>Información rápida para una landing comercial. Puedes reemplazarla por las políticas reales del negocio.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>¿Debo llevar mi propia cuenta de Steam, Riot o Epic?</summary>
+            <p>Sí. Los equipos incluyen los launchers y juegos principales, pero cada jugador ingresa con sus propias cuentas.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>¿Las estadías incluyen acceso gamer?</summary>
+            <p>Sí, cada plan Gamer Stay indica cuántas horas de estación incluye. Las horas adicionales se pueden comprar en recepción.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>¿Puedo reservar para un equipo completo?</summary>
+            <p>Sí. Puedes reservar estaciones contiguas o una sala Private Squad. Para grupos grandes se recomienda reservar con anticipación.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>¿La reserva de esta demo cobra dinero?</summary>
+            <p>No. Este prototipo guarda una reserva de demostración en el navegador usando localStorage y no procesa pagos reales.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reservar">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">06 · Reserva</span>
+            <h2>Separa tu próxima sesión.</h2>
+          </div>
+          <p>Formulario funcional de demostración con validación y almacenamiento local, siguiendo la lógica del proyecto base.</p>
+        </div>
+
+        <div class="reservation-layout">
+          <div class="form-demo reveal">
+            <form id="reservationForm" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Nombre</label>
+                  <input id="name" name="name" type="text" placeholder="Ej. Juan Pérez" required aria-describedby="nameError" />
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="field">
+                  <label for="email">Correo</label>
+                  <input id="email" name="email" type="email" placeholder="jugador@email.com" required aria-describedby="emailError" />
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="field">
+                  <label for="phone">Celular</label>
+                  <input id="phone" name="phone" type="tel" placeholder="300 000 0000" required aria-describedby="phoneError" />
+                  <span class="field-error" id="phoneError"></span>
+                </div>
+
+                <div class="field">
+                  <label for="plan">Plan</label>
+                  <select id="plan" name="plan" required aria-describedby="planError">
+                    <option value="">Selecciona un plan</option>
+                    <option value="Checkpoint">Checkpoint — 4 horas</option>
+                    <option value="Night Raid">Night Raid — 12 horas</option>
+                    <option value="Full Respawn">Full Respawn — 24 horas</option>
+                    <option value="Solo Gaming">Solo Gaming — por horas</option>
+                  </select>
+                  <span class="field-error" id="planError"></span>
+                </div>
+
+                <div class="field">
+                  <label for="date">Fecha</label>
+                  <input id="date" name="date" type="date" required aria-describedby="dateError" />
+                  <span class="field-error" id="dateError"></span>
+                </div>
+
+                <div class="field">
+                  <label for="people">Personas</label>
+                  <input id="people" name="people" type="number" min="1" max="12" value="1" required aria-describedby="peopleError" />
+                  <span class="field-error" id="peopleError"></span>
+                </div>
+
+                <div class="field full-width">
+                  <label for="notes">Notas de la reserva</label>
+                  <textarea id="notes" name="notes" rows="4" placeholder="Ej. Somos 5 jugadores, queremos estaciones contiguas y celebrar un cumpleaños."></textarea>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Confirmar reserva demo</button>
+                <button class="btn btn-secondary" type="reset">Limpiar</button>
+              </div>
+
+              <div class="feedback" id="formFeedback" hidden aria-live="polite" role="status"></div>
+            </form>
+          </div>
+
+          <aside class="booking-summary reveal">
+            <span class="eyebrow">Incluido</span>
+            <h3>Reserva con tranquilidad.</h3>
+            <ul class="summary-list">
+              <li><span>✓</span> Confirmación inmediata de demostración</li>
+              <li><span>✓</span> Selección de plan y número de jugadores</li>
+              <li><span>✓</span> Validación de fecha</li>
+              <li><span>✓</span> Reserva guardada en el navegador</li>
+            </ul>
+            <div class="contact-card">
+              <small>Atención</small>
+              <strong>+57 300 000 0000</strong>
+              <span>hola@nexuscafegamer.co</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="alcance-demo">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="eyebrow">07 · Alcance académico</span>
+            <h2>Prototipo alineado con los requerimientos documentados.</h2>
+          </div>
+          <p>Esta versión implementa las seis historias de usuario definidas para el ejercicio: consulta de oferta, cálculo, selección de plan, reserva, galería/FAQ y disponibilidad demostrativa.</p>
+        </div>
+        <div class="trace-grid">
+          <article class="trace-card reveal"><strong>HU-01</strong><span>Consultar servicios, estaciones y planes.</span></article>
+          <article class="trace-card reveal"><strong>HU-02</strong><span>Calcular costo estimado por plan y jugadores.</span></article>
+          <article class="trace-card reveal"><strong>HU-03</strong><span>Seleccionar plan y precargarlo en la reserva.</span></article>
+          <article class="trace-card reveal"><strong>HU-04</strong><span>Validar, registrar y confirmar una reserva demo.</span></article>
+          <article class="trace-card reveal"><strong>HU-05</strong><span>Explorar galería y preguntas frecuentes.</span></article>
+          <article class="trace-card reveal"><strong>HU-06</strong><span>Visualizar disponibilidad operativa simulada.</span></article>
+        </div>
+        <p class="demo-disclaimer reveal">Persistencia: <code>localStorage</code>. No existe backend, base de datos central ni procesamiento de pagos en esta versión académica.</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box reveal">
+        <div>
+          <span class="eyebrow eyebrow-dark">GG, ¿jugamos?</span>
+          <h2>Convierte una noche común en una experiencia gamer completa.</h2>
+        </div>
+        <a class="btn btn-light" href="#reservar">Reservar ahora</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark">NX</span>
+          <span class="brand-copy"><strong>NEXUS</strong><small>Café Gamer & Stay</small></span>
+        </a>
+        <p>Landing page demostrativa para un negocio híbrido de café gamer, entretenimiento y hospedaje.</p>
+      </div>
+      <div>
+        <strong>Explora</strong>
+        <a href="#estaciones">Estaciones</a>
+        <a href="#estadias">Estadías</a>
+        <a href="#reservar">Reservas</a>
+      </div>
+      <div>
+        <strong>Horario demo</strong>
+        <span>Dom–Jue · 10:00 a. m. – 12:00 a. m.</span>
+        <span>Vie–Sáb · 24 horas</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear"></span> NEXUS Café Gamer & Stay.</span>
+      <span>HTML · CSS · JavaScript</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
